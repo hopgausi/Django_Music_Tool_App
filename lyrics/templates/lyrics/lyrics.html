@@ -1,0 +1,17 @@
+{% extends 'lyrics/base.html' %} {% block content %}
+<section>
+    <div class="container">
+        <div class="text-center centered">
+            <div class="card">
+                <div class="card-body">
+                <div class="my-3 d-flex flex-row bg-primary text-white-50">
+                <h3 class="px-3">Artist:</h3><span class="py-2">{{artist}}</span>
+                <h3 class="px-3">Song:</h3><span class="py-2">{{song}}</span>
+                </div>
+                <p>{{ lyric }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

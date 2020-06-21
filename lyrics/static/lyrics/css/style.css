@@ -1,0 +1,7 @@
+/*import fonts from font.css*/
+
+@import url(./font.css);
+.centered {
+    width: 50%;
+    margin: auto;
+}
